@@ -6,6 +6,7 @@
 button:hover {
      background-color: lightgreen;
      color: #06ae87;
+     cursor: grab;
 }
 
 .open-sans {
@@ -16,6 +17,7 @@ button:hover {
 
 .div-container {
      display: flex;
+     box-sizing: border-box;
      justify-content: space-between;
      margin: 16px 120px;
      align-items: center;
@@ -27,6 +29,12 @@ button:hover {
      gap: 32px;
      font-size: 16px;
      font-weight: 550;
+}
+
+.div-container ul li:hover {
+     cursor: grabbing;
+     color: #459064;
+
 }
 
 .green {
