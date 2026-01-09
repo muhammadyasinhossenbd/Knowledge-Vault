@@ -1,5 +1,7 @@
 * {
      max-width: 1600px;
+     justify-content: center;
+     margin: 0 Auto;
 }
 
 .open-sans {
@@ -56,11 +58,14 @@
      justify-content: center;
 }
 
+
+
 .msg .he {
      background-color: #FFFFFF;
      border-radius: 8px;
      color: #459064;
      font-size: 16px;
+     font-weight: 600;
      padding: 8px 34px;
      max-width: 229px;
      margin-bottom: 0;
@@ -84,6 +89,7 @@
      justify-content: center;
      align-items: center;
      gap: 16px;
+     margin-top: 32px;
 }
 
 .hudai2 {
@@ -114,6 +120,7 @@
      font-size: 48px;
      font-weight: bold;
      color: #001931;
+     padding-top: 50px;
 }
 
 .note-container .msg3 p {
@@ -138,6 +145,7 @@
      border-radius: 8px;
      padding: 69.5px 24px;
      box-shadow: 0px 0px 8px 3px #aaacac6b;
+     gap: 16px;
 }
 
 
@@ -200,11 +208,94 @@
      margin-top: 0;
 }
 
-.sec-msg2 h6 {
-     display: flex;
+.hudai4 {
+     padding-top: 40px;
      align-items: center;
-     justify-items: center;
-     gap: 6px;
+     justify-content: center;
+
+}
+
+
+
+.hudai4 h6 {
+     font-size: 16px;
+     line-height: 20px;
+     color: #001931;
+     text-shadow: 0px 4px 4px #00000073;
+     padding: 2px;
+     gap: 2px;
 
 
 }
+
+
+/* Early Access Section */
+
+#early {
+     padding: 2px 120px 120px;
+
+}
+
+
+#early .acc {
+     margin-top: 0;
+     display: flex;
+     flex-direction: column;
+     background-color: #F7F6F2;
+     padding: 80px 40px;
+     text-align: center;
+}
+
+.title h1 {
+     font-size: 40px;
+     font-weight: bold;
+     color: 001931;
+}
+
+.title p,
+.title2 p {
+     margin-top: 16px;
+     margin-bottom: 26px;
+     font-size: 16px;
+     line-height: 24px;
+     color: #627382
+}
+
+.title2 .blue {
+     box-shadow: 0 10px 20px #627382a2;
+}
+
+
+/* Footer Section */
+
+footer {
+     background-color: #001931;
+     color: #FFFFFF;
+     margin: 0;
+     padding: 120px 120px 30px 120px;
+
+}
+
+
+.logo {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     margin-bottom: 80px;
+     gap: 790px
+}
+
+.foot-box {
+     display: block;
+}
+
+.footnote {
+     border: 1px solid black;
+     max-width: 1360px;
+     text-align: center;
+     padding-top: 30px;
+     box-shadow: 0px -3px 2px rgba(94, 94, 94, 0.402);
+
+}
+
+
