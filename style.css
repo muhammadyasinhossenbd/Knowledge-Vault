@@ -102,7 +102,7 @@
      line-height: 24px;
 }
 
-
+/* Notes Section */
 
 .note-container .msg3 {
      margin-top: 0;
@@ -158,8 +158,53 @@
 .circle {
      width: 10%;
      height: 15%;
-     background: #F85454;
+     background: #F95555;
      padding: 14px;
      border-radius: 50%;
+
+}
+
+/* Second Brain Section */
+
+#sec-brain {
+     display: flex;
+     padding: 120px;
+     gap: 60px;
+}
+
+#sec-brain img {
+     box-shadow: 0px 0px 8px 3px #aaacac6b;
+     border-radius: 12px;
+
+
+}
+
+.sec-msg {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+.hudai3 {
+     font-size: 16px;
+     line-height: 20px;
+     color: #459064;
+     margin-bottom: 0;
+}
+
+.sec-msg2 h1 {
+     font-size: 48px;
+     font-weight: bold;
+     color: #001931;
+     text-shadow: 0px 4px 4px #00000073;
+     margin-top: 0;
+}
+
+.sec-msg2 h6 {
+     display: flex;
+     align-items: center;
+     justify-items: center;
+     gap: 6px;
+
 
 }
