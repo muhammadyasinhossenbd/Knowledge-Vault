@@ -1,7 +1,11 @@
 * {
      max-width: 1600px;
-     justify-content: center;
      margin: 0 Auto;
+}
+
+button:hover {
+     background-color: lightgreen;
+     color: #06ae87;
 }
 
 .open-sans {
@@ -210,8 +214,9 @@
 
 .hudai4 {
      padding-top: 40px;
-     align-items: center;
-     justify-content: center;
+     align-items: flex-start;
+     justify-content: flex-start;
+
 
 }
 
@@ -297,5 +302,3 @@ footer {
      box-shadow: 0px -3px 2px rgba(94, 94, 94, 0.402);
 
 }
-
-
