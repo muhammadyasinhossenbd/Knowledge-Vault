@@ -7,8 +7,11 @@
      <title>Knowledge Vault | Home</title>
      <link rel="preconnect" href="https://fonts.googleapis.com">
      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
           rel="stylesheet">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+          integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
      <link rel="stylesheet" href="style.css">
 
 
@@ -16,80 +19,99 @@
 
 <body>
      <nav>
-          <div class="div-container">
+          <div class="div-container open-sans">
                <div><img src="./assets/logo-navbar.png" alt=""></div>
-               <div class="menu">
+               <div>
                     <ul>
                          <li>Features</li>
                          <li>How It Works</li>
                          <li>Why It's Different</li>
                     </ul>
                </div>
-               <div><button class="green">Get Early Access</button></div>
+               <div><button class="green .open-sans">Get Early Access</button></div>
           </div>
      </nav>
      <section id="banner">
           <div class="ban-container">
-               <div>
-                    <p>Early Access Now Open</p>
-                    <h1>Structured Thinking,<span class="hudai">Not Just Note-Taking.</span></h1>
-                    <p>A private space to store notes, links, and learning summaries — designed to
+               <div class="msg open-sans">
+                    <p class="he">Early Access Now Open</p>
+                    <h1>Structured Thinking,<br><span class="hudai">Not Just Note-Taking.</span></h1>
+                    <p class="msg2 open-sans">A private space to store notes, links, and learning summaries — designed
+                         to<br>
                          help you think clearly, connect ideas, and turn learning into long-term knowledge.</p>
-                    <div>
-                         <button class="green">Start Building Your Vault</button>
-                         <button>See How it Works</button>
+                    <div class="btn">
+                         <button class="green open-sans">Start Building Your Vault <img src="./assets/ArrowRight.png"
+                                   alt=""></button>
+                         <button class="hudai2 open-sans"> <i class="fa-regular fa-circle-play"></i>See How it
+                              Works</button>
                     </div>
                </div>
           </div>
      </section>
      <section id="notes">
-          <div class="note-container">
-               <h1>Notes Don't Fail, Structure Does.</h1>
-               <p>You're not bad at learning. Your tools just weren't built for how knowledge actually works.</p>
-               <div class="card-container">
-                    <div class="card"><img src="./assets/Vector.png" alt="">
+          <div class="note-container open-sans">
+               <div class="msg3">
+                    <h1>Notes Don't Fail, Structure Does.</h1>
+                    <p>You're not bad at learning. Your tools just weren't built for how knowledge
+                         actually
+                         works.</p>
+               </div>
+               <div class="card-container ">
+                    <div class="card"><img src="./assets/Vector.png" alt="" class="circle">
                          <h1>Scattered Notes</h1>
                          <p>Your ideas live in 10 different apps, none of them connected.</p>
                     </div>
-                    <div class="card"><img src="./assets/Vector.png" alt="">
-                         <h1>Bookmark Overload</h1>
+                    <div class="card"><img src="./assets/Bookmarks.png" alt="" class="circle">
+                         <h1>Bookmark overloads</h1>
                          <p>Hundreds of saved links you'll never revisit or remember.</p>
                     </div>
-                    <div class="card"><img src="./assets/Vector.png" alt="">
-                         <h1>No Idea Connections</h1>
+                    <div class="card"><img src="./assets/Brain.png" alt="" class="circle">
+                         <h1>No idea connections</h1>
                          <p>Insights stay isolated, never building into bigger understanding.</p>
                     </div>
-                    <div class="card"><img src="./assets/Vector.png" alt="">
-                         <h1>Forgetting What You Learned</h1>
+                    <div class="card"><img src="./assets/Info.png" alt="" class="circle">
+                         <h1>Forgetting what
+                              you learned</h1>
                          <p>Knowledge fades because there's no system to retain it.</p>
                     </div>
+
                </div>
           </div>
      </section>
      <section id="sec-brain">
           <div><img src="./assets/knowledge.png" alt=""></div>
-          <div>
-               <h6>The Solution</h6>
-               <h1>Your Second Brain, Structured By Design</h1>
+          <div class="sec-msg">
+               <h6 class="hudai2">The Solution</h6>
+               <h1>Your Second Brain, <br>Structured By Design</h1>
                <p>Personal Knowledge Vault isn't another note-taking app. z It's a thinking environment where every
                     note, link, and
                     summary becomes part of an interconnected web of understanding.</p>
-               <h6>Capture ideas with structure built-in from day one</h6>
-               <h6>Connect related concepts automatically as you write</h6>
-               <h6>Build lasting knowledge through reflection prompts</h6>
-               <h6>Find anything instantly with semantic search</h6>
+               <div class="tick">
+                    <h6><img src="./assets/CheckCircle.png" alt="">Capture ideas with structure built-in from day one
+                    </h6>
+                    <h6><img src="./assets/CheckCircle.png" alt="">Connect related concepts automatically as you write
+                    </h6>
+                    <h6><img src="./assets/CheckCircle.png" alt="">Build lasting knowledge through reflection prompts
+                    </h6>
+                    <h6><img src="./assets/CheckCircle.png" alt="">Find anything instantly with semantic search</h6>
+               </div>
           </div>
      </section>
      <section id="early">
-          <div>
-               <h1>Ready to Think More Clearly?</h1>
-               <p>Join thousands of learners who are building their personal knowledge vaults. Start free, no credit
-                    card required.</p>
+          <div class="acc">
+               <div>
+                    <h1>Ready to Think More Clearly?</h1>
+               </div>
+               <div>
+                    <p>Join thousands of learners who are building their personal knowledge vaults.Start free, no credit
+                         card required.</p>
+               </div>
                <button class="green">Get Early Access <img src="./assets/ArrowRight.png" alt=""></button>
-               <p>Free during early access • No credit card needed</p>
+               <div>
+                    <p>Free during early access • No credit card needed</p>
+               </div>
           </div>
      </section>
-
      <footer>
           <div>
                <div><img src="./assets/logo-footer.png" alt=""></div>
